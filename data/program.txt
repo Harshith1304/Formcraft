@@ -1,0 +1,28 @@
+# name|muscles|level|dataset-equipment(* any)|flags|note   Source: user-supplied program list (legs, back, chest)
+Bodyweight Squat|quadriceps,glutes|n|body only|c|Program list: complete at least 50 bodyweight squats before moving to weighted squats. Weighted squats start at 35 lb, then 45 lb.
+Static Lunge|quadriceps,glutes|i|body only||Program list: intermediate and advanced.
+Dynamic Lunge|quadriceps,glutes|p|body only||Program list: advanced.
+Walking Lunge|quadriceps,glutes|p|body only||Program list: advanced.
+Step-up|quadriceps,glutes|i|body only||Program list: low step for intermediate; step height of 90 degrees or more for advanced.
+Leg Press|quadriceps,glutes|n|machine||Program list: all levels.
+Leg Extension|quadriceps|n|machine||Program list: all levels.
+Stiff-Legged Deadlift|hamstrings,glutes,lower back|p|barbell||Program list: advanced.
+Leg Curl|hamstrings|n|machine||Program list: all levels.
+Hip Thrust|glutes,hamstrings|p|barbell||Program list: advanced.
+Standing Calf Raise|calves|n|machine||Program list: all levels.
+Seated Calf Raise|calves|i|machine||Program list: intermediate and advanced.
+Conventional Deadlift|lower back,glutes,hamstrings|p|barbell||Program list: advanced.
+Bent-Over Barbell Row|middle back,lats|p|barbell||Program list: advanced.
+T-Bar Row|middle back,lats|p|*||Program list: advanced.
+One-Arm Dumbbell Row|lats,middle back|i|dumbbell||Program list: intermediate and advanced.
+Two-Arm Dumbbell Row|lats,middle back|p|dumbbell||Program list: advanced.
+Lat Pulldown|lats|n|cable||Program list: all levels.
+Seated Cable Row|middle back,lats|n|cable||Program list: all levels.
+Straight-Arm Pulldown|lats|i|cable||Program list: intermediate and advanced.
+Dumbbell Shrug|traps|n|dumbbell||Program list: all levels.
+Barbell Shrug|traps|i|barbell||Program list: intermediate and advanced.
+Push-up|chest,triceps,shoulders|n|body only|c|Program list: progress through DOD 1 to DOD 4. To graduate to the next DOD: 30 s hold with a 30 s break, and 20+ reps with a 1 min break.
+Flat Bench Barbell Press|chest,triceps,shoulders|n|barbell||Program list: all levels.
+Flat Bench Dumbbell Press|chest,triceps,shoulders|n|dumbbell||Program list: all levels.
+Decline Barbell Press|chest,triceps|p|barbell||Program list: advanced.
+Decline Dumbbell Press|chest,triceps|p|dumbbell||Program list: advanced.

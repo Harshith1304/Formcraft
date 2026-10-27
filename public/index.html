@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FormCraft – Exercise finder for every muscle</title>
+<meta name="description" content="Pick a muscle and your level to get calisthenics, bodyweight, yoga and gym exercises with sets, reps and rest.">
+<meta name="theme-color" content="#09090b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2309090b'/%3E%3Cpath d='M9 8h14v4H14v4h8v4h-8v4H9z' fill='%23ffd23f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#09090b;--panel:#121216;--panel2:#1a1a20;--line:#2a2a33;--ink:#f4f4f5;--mute:#a1a1aa;--red:#ff5a4f;--yel:#ffd23f;--blu:#4aa3ff;--slate:#9aa4b2;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:17px/1.55 'Source Sans 3',system-ui,sans-serif;background:radial-gradient(55% 380px at 12% 0,#4aa3ff24,transparent),radial-gradient(45% 340px at 92% 0,#ff5a4f1f,transparent),radial-gradient(40% 300px at 55% 0,#ffd23f14,transparent),var(--bg);background-repeat:no-repeat}
+h1,h2,h3{font-family:'Barlow Condensed',sans-serif;line-height:1.05;margin:0}
+a{color:var(--blu)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.brand{font:800 28px 'Barlow Condensed';letter-spacing:.5px}.brand i{font-style:normal;color:var(--yel)}
+button,input{font:inherit;color:inherit}button{cursor:pointer}
+:focus-visible{outline:3px solid var(--blu);outline-offset:2px}
+.btn{background:var(--yel);color:#141000;border:0;border-radius:10px;padding:11px 20px;font-weight:600}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line)}.btn.ghost:hover{border-color:var(--blu)}
+.hero{padding:10px 0 4px}
+h1{font-size:clamp(42px,7vw,80px);font-weight:800;margin:8px 0 10px}
+h1 span{color:#d7263d;text-shadow:0 0 44px #d7263d66}
+.lead{color:var(--mute);max-width:54ch;margin:0 0 24px}
+.finder{display:grid;grid-template-columns:2fr 1.4fr 1fr auto;gap:12px;align-items:end}
+.finder .btn{height:46px}
+label,.lbl{display:block;font-size:14px;color:var(--mute);margin-bottom:4px}
+.field{position:relative}
+.ctl{width:100%;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:11px 14px;height:46px;border:1px solid var(--line);border-radius:10px;background:var(--panel);text-align:left}
+.ctl:hover,.ctl[aria-expanded=true]{border-color:var(--blu)}
+input.ctl{display:block}input::placeholder{color:#6b6b76}
+.chev{width:16px;height:16px;flex:none;transition:transform .15s}.ctl[aria-expanded=true] .chev{transform:rotate(180deg)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--panel);height:46px}
+.seg button{border:0;background:none;border-radius:8px;color:var(--mute);font-weight:600}
+.seg button[aria-checked=true]{background:var(--yel);color:#141000}
+.list{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 6px);margin:0;padding:6px;list-style:none;background:var(--panel2);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 40px rgba(0,0,0,.6);max-height:280px;overflow:auto;animation:pop .14s ease-out}
+@keyframes pop{from{opacity:0;transform:translateY(-4px) scale(.98)}}
+.list[hidden]{display:none}
+.list li{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:9px 10px;border-radius:8px;cursor:pointer}
+.list li small{display:block;color:var(--mute);font-size:13px;line-height:1.2}
+.list li[aria-selected=true]{font-weight:600}.list li.act{background:#ffffff12}
+.list li svg{width:16px;height:16px;color:var(--yel);opacity:0}.list li[aria-selected=true] svg{opacity:1}
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center;color:var(--mute)}
+.quick .q{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;font-size:15px}.quick .q:hover{border-color:var(--yel)}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0 6px}
+.cat{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 16px;display:flex;align-items:center;gap:8px}
+.cat::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--c,var(--ink))}
+.cat[data-c=calisthenics]{--c:var(--red)}.cat[data-c=bodyweight]{--c:var(--yel)}.cat[data-c=yoga]{--c:var(--blu)}.cat[data-c=gym]{--c:var(--slate)}
+.cat[aria-pressed=true]{background:var(--ink);color:#09090b;border-color:var(--ink)}
+.cat small{opacity:.65}
+.note{padding:10px 14px;border-left:4px solid var(--yel);background:var(--panel);margin:14px 0;border-radius:0 8px 8px 0}
+.src,.fine{color:var(--mute);font-size:14px}
+.grp{margin:34px 0 12px;font-size:34px;text-transform:capitalize}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.card{--c:var(--slate);position:relative;background:linear-gradient(180deg,#16161c,#0e0e12);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px;overflow:hidden;transition:border-color .2s,transform .2s}
+.card::before{content:"";position:absolute;top:-30%;right:-25%;width:75%;height:85%;background:radial-gradient(closest-side,color-mix(in srgb,var(--c) 28%,transparent),transparent);pointer-events:none}
+.card:hover{border-color:color-mix(in srgb,var(--c) 65%,var(--line));transform:translateY(-2px)}
+.card[data-cat=calisthenics]{--c:var(--red)}.card[data-cat=bodyweight]{--c:var(--yel)}.card[data-cat=yoga]{--c:var(--blu)}
+.top{position:relative;display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c);font-weight:600}
+.pips{display:flex;gap:4px}.pips i{width:18px;height:4px;border-radius:2px;background:#34343d}.pips i.on{background:var(--c)}
+.card h3{font-size:31px;position:relative}
+.mus{display:flex;flex-wrap:wrap;gap:6px;position:relative}
+.mus span{font-size:13px;padding:2px 10px;border-radius:999px;border:1px solid var(--line);color:var(--mute);text-transform:capitalize}
+.mus span.p{color:var(--ink);border-color:color-mix(in srgb,var(--c) 60%,var(--line));background:color-mix(in srgb,var(--c) 14%,transparent)}
+.rx{position:relative;display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.rx div{padding:10px 6px;text-align:center;background:#0b0b0e}.rx div+div{border-left:1px solid var(--line)}
+.rx b{display:block;font:800 22px/1.15 'Barlow Condensed',sans-serif}.rx span{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.1em}
+.eq{font-size:14px;color:var(--mute);position:relative}.eq b{color:var(--ink);text-transform:none}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;position:relative}
+.foot .btn{padding:7px 16px}
+.caution{font-size:14px;border-left:3px solid var(--red);padding-left:8px;margin-top:8px}
+details summary{cursor:pointer;color:var(--blu);font-weight:600}
+details ol,details ul{padding-left:20px;margin:8px 0 0}details p{margin:8px 0 0}
+.save{}.save[aria-pressed=true]{background:var(--ink);color:#09090b;border-color:var(--ink)}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);width:min(400px,92vw);padding:24px}
+dialog::backdrop{background:rgba(0,0,0,.72)}
+dialog form{display:grid;gap:12px}
+dialog input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+dialog.model{width:min(760px,96vw);padding:16px}
+.err{color:var(--red);min-height:1.4em;margin:0}
+.stage{position:relative;background:#050507;border:1px solid var(--line);border-radius:12px;overflow:hidden;height:min(520px,70vh);margin-top:10px}
+#stage{position:absolute;inset:0}#stage canvas{display:block;width:100%;height:100%;touch-action:none}
+.hud{position:absolute;left:12px;right:12px;bottom:12px;display:flex;flex-wrap:wrap;gap:6px}
+.hud button{background:#16161bcc;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px}.hud button:hover{border-color:var(--yel)}
+.tip{position:absolute;top:12px;left:12px;font-size:14px;background:#16161bdd;border:1px solid var(--line);border-radius:8px;padding:4px 10px;pointer-events:none;text-transform:capitalize}
+@media(max-width:900px){.finder{grid-template-columns:1fr}.finder .btn{height:auto}}
+@media(prefers-reduced-motion:reduce){.list,.chev{animation:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="brand">Form<i>Craft</i></div><nav id="nav"></nav></header>
+  <section class="hero">
+    <h1>Pick a <span>muscle</span>. Get the plan.</h1>
+    <p class="lead">Choose a body part and your level. Get calisthenics, bodyweight, yoga and gym exercises with sets, reps and rest.</p>
+    <form class="finder" id="finder">
+      <div class="field"><label for="q">Body part</label>
+        <input class="ctl" id="q" role="combobox" aria-expanded="false" aria-controls="qlist" aria-autocomplete="list" placeholder="thighs, lats, lower body…" autocomplete="off" required>
+        <ul class="list" id="qlist" role="listbox" hidden></ul></div>
+      <div class="field"><span class="lbl" id="lvl-l">Level</span><div id="level"></div></div>
+      <div class="field"><span class="lbl" id="goal-l">Goal</span><div id="goal"></div></div>
+      <button class="btn" type="submit">Show exercises</button>
+    </form>
+    <div class="quick" id="quick"><button class="btn ghost" type="button" id="open3d">Open 3D body map</button></div>
+  </section>
+  <div class="cats" id="cats" role="group" aria-label="Exercise type"></div>
+  <div id="out" aria-live="polite"></div>
+</div>
+<dialog id="model" class="model" aria-label="3D body model"><div style="display:flex;justify-content:space-between;align-items:center"><h2>Pick a muscle</h2><button class="btn ghost" type="button" id="close3d">Close</button></div>
+  <div class="stage"><div id="stage"></div><div class="tip" id="tip" hidden></div>
+    <div class="hud"><button type="button" data-view="front">Front</button><button type="button" data-view="back">Back</button><button type="button" data-group="lower body">Lower body</button><button type="button" data-group="upper body">Upper body</button><button type="button" data-group="core">Core</button><button type="button" data-group="full body">Full body</button></div></div>
+  <p class="fine">Drag to rotate, scroll to zoom, click a muscle to see its exercises.</p></dialog>
+<dialog id="auth"><form id="authForm"><h2 id="authTitle">Log in</h2>
+  <div><label for="em">Email</label><input id="em" type="email" autocomplete="email" required></div>
+  <div><label for="pw">Password (10+ characters)</label><input id="pw" type="password" minlength="10" autocomplete="current-password" required></div>
+  <p class="err" id="err"></p>
+  <button class="btn" type="submit" id="authGo">Log in</button>
+  <button class="btn ghost" type="button" id="authSwap">Create an account</button>
+  <button class="btn ghost" type="button" id="authX">Cancel</button></form></dialog>
+<script src="viz.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

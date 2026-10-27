@@ -1,0 +1,36 @@
+{
+  "name": "formcraft",
+  "version": "1.0.0",
+  "description": "Exercise finder: pick a muscle and your level, get calisthenics, bodyweight, yoga and gym exercises with sets, reps and rest.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server.js",
+    "build:data": "node scripts/build-data.js",
+    "build:web": "esbuild src/viz.js --bundle --minify --format=iife --outfile=public/viz.js",
+    "build": "npm run build:data && npm run build:web",
+    "postinstall": "npm run build:web"
+  },
+  "keywords": [
+    "fitness",
+    "exercise",
+    "express",
+    "threejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "esbuild": "^0.28.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "three": "^0.186.1",
+    "pg": "^8.13.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

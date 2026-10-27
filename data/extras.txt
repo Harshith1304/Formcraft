@@ -1,0 +1,32 @@
+# name|muscles|level|equipment|flags|source|note
+# From The Fitness Phantom calisthenics plan (level = which routine it appears in: beginner routine = novice, otherwise intermediate)
+Hindu Push-up|chest,shoulders,triceps|n|none|c|plan|
+Squat Jump|quadriceps,glutes|n|none|p|plan|
+Floor IYT Raise|middle back,shoulders|n|mat||plan|
+Banded Overhead Press|shoulders,triceps|n|resistance band||plan|
+Resistance Band Deadlift|hamstrings,glutes|n|resistance band||plan|
+Resistance Band Squat|quadriceps,glutes|n|resistance band||plan|
+Resistance Band Row|middle back,lats|n|resistance band||plan|
+Shoulder Tap|shoulders,abdominals|n|none||plan|
+Side Plank|abdominals|n|mat|h|plan|
+Assisted Pull-up|lats,biceps|n|pull-up bar and band|c|plan|
+Cossack Squat|quadriceps,adductors|i|none||plan|
+Side Plank Dip|abdominals|i|mat||plan|
+Hanging Leg Raise|abdominals|i|pull-up bar|c|plan|
+L-Sit|abdominals|i|parallel bars or floor|ch|plan|
+Seated Knee Tuck|abdominals|i|none||plan|
+Sit-up|abdominals|i|mat||plan|
+Lying Superman Row|middle back,lower back|i|mat||plan|
+Banded Lateral Raise|shoulders|i|resistance band||plan|
+Banded Overhead Extension|triceps|i|resistance band||plan|
+Triceps Push-up|triceps,chest|i|none|c|plan|
+One-Arm Push-up|shoulders,chest|i|none|c|plan|
+Pronated Inverted Row|middle back,lats|i|bar|c|plan|
+Hollow Body Crunch|abdominals|i|mat||plan|
+Close-Grip Chin-up|biceps,lats|i|pull-up bar|c|plan|
+Donkey Kick|glutes,hamstrings|n|mat||chart|
+Side Leg Raise|glutes,abductors|n|mat||chart|
+Jump Knee Tuck|quadriceps,abdominals|i|none|p|chart|
+Clapping Push-up|chest,triceps|p|none|cp|chart|
+Doorway Row|lats,biceps|n|door frame|c|chart|
+Pseudo Planche Push-up|chest,shoulders|p|none|c|chart|

@@ -1,0 +1,107 @@
+# name|muscles|level(n/i/p)|equipment|flags(c=calisthenics,h=hold,p=cardio/plyo)|level as published   Source: thefitnessphantom.com/list-of-bodyweight-exercises-with-pdf
+Push-up|chest,triceps,shoulders|n|none|c|Beginner to Intermediate
+Negative Push-up|chest,shoulders|i|none|c|Intermediate
+Wide Push-up|chest,shoulders|i|none|c|Intermediate
+Incline Push-up|chest,shoulders|n|bench/chair/elevated object|c|Beginner
+Decline Push-up|chest,shoulders|i|bench/chair/elevated object|c|Intermediate
+Bar Dip|chest,triceps,shoulders|i|dip station|c|Intermediate
+Close-Grip Push-up|chest,triceps|i|none|c|Intermediate
+Archer Push-up|chest,shoulders|i|none|c|Intermediate
+Staggered Push-up|chest,shoulders|i|none|c|Intermediate
+Pike Push-up|shoulders,triceps|i|none|c|Intermediate
+Standing IYT Raise|shoulders,middle back|n|none||Beginner
+Wall Handstand Push-up|shoulders,triceps|p|wall support|c|Advanced
+Scapular Push-up|shoulders,middle back|n|none|c|Beginner to Intermediate
+Plank Up|shoulders,abdominals|i|none||Intermediate
+Handstand Walk|shoulders,triceps|p|none|c|Advanced
+Bodyweight Lateral Raise|shoulders|i|none||Intermediate
+Lying Rear Delt Fly|shoulders,middle back|n|none||Beginner
+Rear Delt Retraction on the Wall|shoulders,traps|n|wall support||Beginner to Intermediate
+Bodyweight Rear Delt Raise|shoulders,middle back|n|none||Beginner to Intermediate
+Bodyweight Torso Pull|shoulders,middle back|i|none||Intermediate
+Triangle Push-up|triceps,chest|i|none|c|Intermediate
+Sphinx Push-up|triceps|n|none|c|Beginner
+Bench Dip|triceps|n|bench/chair|c|Beginner
+Bodyweight Triceps Extension|triceps,shoulders|n|smith machine/bench/chair|c|Beginner
+Upright Body Dip|triceps,chest|i|dip station|c|Intermediate
+Floor Dip|triceps|i|none|c|Intermediate
+Bodyweight Curl|biceps|n|table, dip stand, straight rod or bamboo|c|Beginner
+Chin-up|biceps,lats|n|bar to hang on|c|Beginner
+Neutral Grip Chin-up|biceps,forearms,lats|i|an object to hang on, like a pull-up bar|c|Intermediate
+Bicep Leg Curl|biceps|n|none||Beginner
+Neutral Grip Inverted Row|biceps,middle back|i|table, dip stand, or bar|c|Intermediate
+Negative Chin-up|biceps,lats|i|pull-up bar|c|Intermediate
+Pull-up|lats,biceps|n|pull-up bar|c|Beginner to Intermediate
+Superman Pull|lower back,shoulders|n|mat||Beginner
+Inverted Row|lats,middle back,biceps|n|pull-up bar|c|Beginner
+Lying Triple Fly|middle back,shoulders|n|mat||Beginner
+Renegade Row|lats,abdominals|i|none||Intermediate
+Prone Towel Row|lats,shoulders|n|towel and mat||Beginner
+Bird Dog|lower back,abdominals,glutes|i|mat|h|Intermediate
+Superman with External Arm Rotation|lats,hamstrings|i|mat||Intermediate
+Crunch|abdominals|n|mat||Beginner
+Reverse Crunch|abdominals|n|mat||Beginner
+Plank|abdominals|n|mat|h|Beginner to Intermediate
+Mountain Climber|abdominals|n|none|p|Beginner
+Toe Tap Crunch|abdominals|i|mat||Intermediate
+Alternating Heel Tap|abdominals|n|mat||Beginner
+Russian Twist|abdominals|i|mat||Intermediate
+Leg Raise|abdominals|i|mat||Intermediate
+Flutter Kick|abdominals|n|mat||Beginner
+Crossbody Mountain Climber|abdominals|n|none|p|Beginner to Intermediate
+Dead Bug|abdominals|i|none||Intermediate
+Hollow Body Hold|abdominals|i|none|ch|Intermediate
+V-up|abdominals|i|none||Intermediate
+Knee Tuck|abdominals|n|none||Beginner
+Single-Leg Tuck-up|abdominals|i|none||Intermediate
+Dragon Flag|abdominals|p|firm stationary object|c|Advanced
+Side Plank Hip Tap|abdominals|n|mat||Beginner
+Bicycle Crunch|abdominals|i|yoga mat||Intermediate
+Lying Windshield Wiper|abdominals,lower back|i|exercise mat||Intermediate
+Air Plunge|abdominals|i|yoga mat||Intermediate
+Standing Leg Curl|hamstrings|n|none||Beginner
+Single-Leg Sliding Curl|hamstrings,glutes|i|gliding discs||Intermediate
+Nordic Hamstring Curl|hamstrings,glutes|i|partner support||Intermediate
+Single-Leg Hamstring Bridge|hamstrings,glutes|n|none||Beginner to Intermediate
+Single-Leg Romanian Deadlift|hamstrings,glutes,lower back|i|none||Intermediate
+Hamstring March|hamstrings|n|none||Beginner
+Bodyweight Squat|quadriceps,glutes|n|none|c|Beginner
+Front Lunge|quadriceps,hamstrings,glutes|n|none||Beginner
+Bulgarian Split Squat|quadriceps,hamstrings,glutes|i|bench/chair/box||Intermediate
+Lateral Lunge|quadriceps,adductors|n|none||Beginner
+Wall Sit|quadriceps,glutes|n|wall support|h|Beginner
+Frog Squat|quadriceps,adductors|n|none||Beginner
+Reverse Lunge|quadriceps,glutes,hamstrings|i|none||Intermediate
+Sumo Squat|quadriceps,adductors|i|none||Intermediate
+Skater Squat|quadriceps,glutes,hamstrings|p|none|c|Advanced
+Sissy Squat|quadriceps|p|firm vertical object|c|Advanced
+Step-up|quadriceps,glutes|i|box/bench||Intermediate
+Pistol Squat|quadriceps,glutes,hamstrings|p|none|c|Advanced
+Curtsy Lunge|quadriceps,glutes|i|none||Intermediate
+Glute Bridge|glutes,lower back|n|exercise mat||Beginner
+Reverse Leg Lift|glutes,hamstrings|n|none||Beginner
+Leg Kickback|glutes,hamstrings|n|yoga mat||Beginner to Intermediate
+Plie Squat|glutes,adductors|i|none||Intermediate
+Squat Jack|glutes,adductors|i|none|p|Intermediate
+Frog Pump|glutes,hamstrings|n|none||Beginner
+Long Lever Bridge March|glutes,hamstrings|i|none||Intermediate
+Single-Leg Calf Raise|calves,ankles|n|wall support||Beginner
+Double-Leg Heel Raise|calves,ankles|n|wall support||Beginner
+Donkey Calf Raise|calves,hamstrings,ankles|i|any supporting object, such as a bench, box, or chair||Intermediate
+Plie Squat Calf Raise|calves,adductors,ankles|n|none||Beginner
+Eccentric Calf Raise|calves,ankles|n|wall support and stepper||Beginner
+Jumping Jack|quadriceps,calves,shoulders|n|none|p|Beginner
+Burpee|chest,quadriceps,abdominals|i|none|p|Intermediate
+High Knees|quadriceps,abdominals|n|none|p|Beginner
+Plyometric Jump|quadriceps,glutes,calves|i|none|p|Intermediate to Advanced
+Dive Bomber Push-up|chest,shoulders|i|none|c|Intermediate
+Muscle-up|lats,chest,triceps|p|pull-up bar|c|Advanced
+Inchworm|abdominals,shoulders,hamstrings|n|none||Beginner to Intermediate
+Spider Crawl|abdominals,shoulders|i|none|p|Intermediate
+Bear Crawl|shoulders,abdominals|n|none|p|Beginner to Intermediate
+Planche|shoulders,abdominals|i|none|ch|Intermediate to Advanced
+Sit Out|shoulders,triceps,abdominals|i|none||Intermediate
+Knee Tap Push-up|chest,abdominals|i|mat|c|Intermediate
+Front and Back Lever|lats,abdominals|p|bar|ch|Advanced
+Explosive Push-up|chest,triceps|p|none|cp|Advanced
+Power Maker|chest,quadriceps,abdominals,shoulders|p|none|p|Advanced
